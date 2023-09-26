@@ -5,6 +5,7 @@ docker run `
     --mount "type=volume,source=zmk-dev-pip-cache,target=/root/.cache/pip" `
     --mount "type=volume,source=zmk-dev-python-lib,target=/usr/local/lib/python3.8" `
     --mount "type=bind,source=$Env:USERPROFILE\Projects\zmk-config,target=/zmk-config" `
+    --mount "type=bind,source=$Env:USERPROFILE\Projects\miryoku_zmk,target=/miryoku" `
     --rm `
     --workdir /zmk `
     zmk-dev-arm:main `
