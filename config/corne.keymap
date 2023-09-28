@@ -4,5 +4,5 @@
 #define MIRYOKU_NAV_VI
 #define MIRYOKU_CLIPBOARD_WIN
 
-#include "../miryoku/miryoku/mapping/42/corne.h"
-#include "../miryoku/miryoku/miryoku.dtsi"
+#include "../miryoku_zmk/miryoku/mapping/42/corne.h"
+#include "../miryoku_zmk/miryoku/miryoku.dtsi"
